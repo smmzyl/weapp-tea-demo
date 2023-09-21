@@ -1,0 +1,12 @@
+<!--components/address.wxml-->
+  <view class="addressBox">
+    <view class="shopName">
+      <text class="tel">先胜GO ></text>
+    </view>
+    <view class="tel-address">
+      <text style="display: block;">距离您：? m</text>
+      <text>联系电话：xxxxxxxxx</text>
+    </view>
+    <text></text>
+    <text>{{text}}</text>
+  </view>

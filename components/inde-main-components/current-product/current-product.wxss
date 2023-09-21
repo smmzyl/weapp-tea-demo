@@ -1,0 +1,43 @@
+/* components/current-product/current-product.wxss */
+@import "/utils/iconfont.wxss";
+.current_section{
+  padding:10px;
+}
+.section_name{
+  display: block;
+  font-size:12px;  
+  color:#aaa;  
+}
+.section_box{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:5px;
+}
+.current_choose_value{
+  display: block;
+  padding:5px 10px;
+  border-radius: 10px;
+  border:1px solid #ccc;
+  font-size:12px;
+  align-items: flex-start;
+  margin-right: 5px;
+  margin-bottom:8px;
+  color:#aaa;
+}
+.icon-xingxingman{
+  background: #000;
+  border:1px solid #000;
+  color:white;
+}
+.icon-xingxingman:before{
+  float:right;
+  font-size:8px;
+  color:yellow;
+  padding:0px 4px;
+}
+
+  .current_choose{
+        display: block;
+        font-size:24rpx;
+        color:#aaa;
+    }

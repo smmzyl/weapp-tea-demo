@@ -1,0 +1,9 @@
+<!--components/edit-qty/edit-qty.wxml-->
+ 
+ <view class="edit_product_qty_box">
+    <text class=" choose current_cut" wx:if="{{show_add_qty}}" data-list="current{{littleIndex}}" data-imageid="{{edit_data.id}}" id="cut" catchtap="deliveryId">-</text>
+
+    <text class="current_qty" wx:if="{{show_add_qty}}">{{currentProduct.qty}}</text>
+
+    <text class=" choose current_add" catchtap='deliveryId' data-list="current{{littleIndex}}" id="add" data-imageid="{{edit_data.id}}">+</text> 
+</view>

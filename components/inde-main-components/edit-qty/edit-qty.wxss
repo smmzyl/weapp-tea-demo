@@ -1,0 +1,19 @@
+/* components/edit-qty/edit-qty.wxss */
+.edit_product_qty_box{
+  position: absolute;
+  right: 0rpx;
+  top: 130rpx;
+  height: 60rpx;
+}
+    .choose{
+        padding:4rpx 20rpx;
+        background:#000;
+        color:white;
+        border-radius:40rpx;
+        font-size:28rpx;
+      }
+      .current_cut{
+        border:2rpx solid #ccc;
+        background: #fff;
+        color:#aaa;
+      }
